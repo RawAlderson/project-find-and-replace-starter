@@ -21,8 +21,14 @@ function getCellElements (currentRowElement) {
 
 
 // YOUR CODE GOES HERE
-
-
+replaceAllButton.addEventListener('click', function() {
+    let userSearchInput = findInput.value
+    let userReplaceInput = replaceInput.value
+    for (let counter = 0; counter < rowElements.length; counter += 1) {
+        let cellElementArray = getCellElements(rowElements[counter])
+        for (let counter2 = 0; counter2 < cellElementArray.length; counter2 += 1) {}
+    }
+})
 // One last thing: dedicate very careful attention to using variables and
 // naming them accurately.
 // And when you change the value you are assigning to a variable, don't
